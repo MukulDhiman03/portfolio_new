@@ -9,3 +9,9 @@ Next.js has a Metadata API that can be used to define your application metadata 
 ```
 
 # npm i clsx
+
+# npm i tainwind-merger
+
+# pnpm i react-animated-cursor
+
+# pnpm i react-water-wave

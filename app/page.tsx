@@ -1,12 +1,13 @@
-import { cn } from "@/ulib/utils";
+"use client"
+import WaterWaveWrapper from "@/components/visualEffects/WaterWave";
 
 
 export default function Home() {
   return (
-    <div>
-      <h1 className={cn("italic", "text-5xl", "text-yellow-400", true && "underline")}>
-        Hello My Friends
-      </h1>
-    </div >
+    <WaterWaveWrapper imageUrl="" dropRadius="2" perturbance="3" resolution="2048">
+      {
+        () => <div className="h-screen"></div>
+      }
+    </WaterWaveWrapper>
   );
 }
